@@ -6,7 +6,8 @@
     "postinstall": "typings install",
     "gulp": "gulp",
     "start": "concurrent \"npm run gulp\" \"npm run lite\" ",
-    "typings": "typings"
+    "typings": "typings",
+    "test": "live-server --open=test/unit-tests.html"
   },
   "license": "MIT",
   "dependencies": {
@@ -32,6 +33,7 @@
     "gulp-sass": "^2.3.1",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-typescript": "^2.10.0",
+    "jasmine-core": "2.4.1",
     "lite-server": "^2.1.0",
     "systemjs-builder": "^0.15.16",
     "typings": "^0.8.1"
