@@ -1,0 +1,10 @@
+<ul class="list-group" [class.not-active]="platformNameField.value">
+  <li *ngFor="let platform of platforms">
+    {{platform}}
+  </li>
+</ul>
+<div class="text-center">
+  <input type="text" #platformNameField  (keyup)="onInputChange(platformNameField.value)"/>
+  <br /><br />
+  {{selectedPlatform}}
+</div>
