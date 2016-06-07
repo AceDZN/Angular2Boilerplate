@@ -27,7 +27,7 @@ export class ForkBannerComponent implements OnInit {
 
 
   ngOnInit() {
-    this.url = "https://github.com/AceDZN/SwitchPuzzle";
+    this.url = "https://github.com/AceDZN/Angular2Boilerplate";
     this.target = "_blank"
   }
 
