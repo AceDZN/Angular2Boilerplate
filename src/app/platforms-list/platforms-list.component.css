@@ -16,3 +16,14 @@ ul.list-group li {
   transform: skewX(7deg) skewY(2deg);
   cursor:pointer;
 }
+
+input[type=text]{
+  display: inline-block;
+  padding: 10px;
+  background: #F8EAEB;
+  box-shadow: -2px 3px 3px #c0c0c0;-moz-box-shadow: -2px 3px 3px #c0c0c0;-webkit-box-shadow: -2px 3px 3px #c0c0c0;
+  margin: 20px 5px;
+  transform: skewX(7deg) skewY(-5deg);
+  cursor:pointer;
+  border:2px solid #fff;
+}

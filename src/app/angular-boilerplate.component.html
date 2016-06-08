@@ -1,6 +1,6 @@
 <fork-banner></fork-banner>
-<greeting></greeting>
-<platforms-list></platforms-list>
+<greeting [mySelectedPlatform]="selectedPlatform"></greeting>
+<platforms-list (platformChanged)="selectedPlatform = $event" [mySelectedPlatform]="selectedPlatform"></platforms-list>
 <div class="angular-logo" style="">
   <svg class="" width="200" height="100%" viewBox="0 0 299 418" version="1.1">
       <g id="js" transform="translate(0,-100)">

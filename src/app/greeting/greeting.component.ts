@@ -4,15 +4,15 @@ import { Component, OnInit } from '@angular/core';
   moduleId: module.id,
   selector: 'greeting',
   templateUrl: 'greeting.component.html',
-  styleUrls: ['greeting.component.css']
+  styleUrls: ['greeting.component.css'],
+  inputs:['selectedPlatform:mySelectedPlatform']
 })
 export class GreetingComponent implements OnInit {
 
   constructor() {}
 
-  selectedPlatform: string;
+
   ngOnInit():any{
-  this.selectedPlatform = "_______";
     return null;
   }
 

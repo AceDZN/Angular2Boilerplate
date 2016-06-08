@@ -17,5 +17,5 @@ import {GreetingComponent} from './greeting/greeting.component';
   ]
 })
 export class AngularBoilerplateAppComponent {
-  title = 'angular-boilerplate works!';
+  selectedPlatform = "_______";
 }
